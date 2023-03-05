@@ -9,6 +9,7 @@
 
 #external-links {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   gap: 20px;
   padding: 20px;
