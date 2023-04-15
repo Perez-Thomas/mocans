@@ -1,3 +1,8 @@
+.nav-title {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
 .slideshow-container {
   height: 100vh;
   width: auto;
@@ -6,6 +11,8 @@
 .carousel-image {
   height: 100vh;
   width: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .cards {
@@ -20,6 +27,12 @@
 .card {
   display: flex;
   align-items: center;
+  border: none;
+}
+
+.product-image {
+  width: 264px;
+  padding-top: 20px;
 }
 
 #external-links {
@@ -45,4 +58,12 @@ p {
 
 .btn-card {
   display: flex;
+}
+
+.contact-form {
+  padding-top: 15px;
+}
+
+.btn-email {
+  padding-top: 15px;
 }/*# sourceMappingURL=style.css.map */
