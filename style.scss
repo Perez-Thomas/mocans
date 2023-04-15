@@ -7,9 +7,14 @@
     align-items: center;
 }
 
+.card{
+    display: flex;
+    align-items: center;
+}
+
 #external-links{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: no-wrap;
     flex-direction: row;
     gap: 20px;
     padding: 20px;
@@ -18,4 +23,12 @@
 .banner img{
     width: 100%;
     height: auto;
+}
+
+p {
+    text-align: center;
+}
+
+.product-image{
+    display: flex;
 }
