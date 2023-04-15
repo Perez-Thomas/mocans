@@ -1,3 +1,13 @@
+.slideshow-container {
+  height: 100vh;
+  width: auto;
+}
+
+.carousel-image {
+  height: 100vh;
+  width: auto;
+}
+
 .cards {
   display: flex;
   flex-direction: row;
@@ -14,7 +24,7 @@
 
 #external-links {
   display: flex;
-  flex-wrap: no-wrap;
+  flex-wrap: wrap;
   flex-direction: row;
   gap: 20px;
   padding: 20px;
@@ -26,9 +36,13 @@
 }
 
 p {
-  text-align: center;
+  text-align: justify;
 }
 
 .product-image {
+  display: flex;
+}
+
+.btn-card {
   display: flex;
 }/*# sourceMappingURL=style.css.map */
